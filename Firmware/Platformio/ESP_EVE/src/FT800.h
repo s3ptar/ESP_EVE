@@ -542,5 +542,3 @@
 #define DISPLAY() ((0UL<<24))
 
 #endif /* _FT800_H_ */
-
-

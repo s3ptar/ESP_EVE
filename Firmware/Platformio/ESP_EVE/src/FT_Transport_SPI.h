@@ -24,6 +24,7 @@
 #define _FT_TRANSPORT_SPI_H_
 
 #include "SPI.h"
+#include "Arduino.h"
 
 class FT_Transport_SPI
 {

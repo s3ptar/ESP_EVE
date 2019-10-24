@@ -22,6 +22,10 @@
 #ifndef _FT800IMPL_H_
 #define _FT800IMPL_H_
 
+#include "Arduino.h"
+#include "project_def.h"
+#include "FT_GC.h"
+
 /* Macros for FT800Impl library version */
 #define FT800IMPL_MAJOR 				(1)
 #define FT800IMPL_MINOR 				(0)

@@ -22,6 +22,16 @@
 #ifndef _FT_GC_H_
 #define _FT_GC_H_
 
+#include "FT800.h"
+#include "math.h"
+#include "Arduino.h"
+#include "project_def.h"
+#include "SPI.h"
+
+int min(int a,int b) {
+	return ((a)<(b)?(a):(b)); 
+	}
+
 /* Definitions used for debug. Uncomment the below to enable debug from graphics controller library */
 #define FT_GCDEBUG0 255 //switchoff debug
 #define FT_GCDEBUG1 1 //most critical debug information
@@ -1928,5 +1938,3 @@ uint32_t FT_GC<FT_Trans>::GetError(void)
 
 
 #endif /* _FT_GC_H_ */
-
-
